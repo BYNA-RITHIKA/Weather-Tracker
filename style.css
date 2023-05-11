@@ -114,9 +114,9 @@ body {
 }
 
 .card-footer p {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 100;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
 }
 
 .row {
