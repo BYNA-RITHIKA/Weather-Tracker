@@ -55,11 +55,9 @@ updateWeather = (city) => {
         
     `
     if (isDayTime(imageName)) {
-        console.log("day");
         timeImage.setAttribute('src', 'images/day_image.svg');
         cityName.classList.add('text-black')
     } else {
-        console.log("nyt");
         timeImage.setAttribute('src', 'images/night_image.svg');
         cityName.classList.add('text-white')
 
