@@ -1,8 +1,6 @@
 const key = `${apiKey}`
 
 
-
-
 const requestCity = async(city) => {
     const baseURL = 'https://api.openweathermap.org/data/2.5/weather'
     const query = `?q=${city}&appid=${key}`;
