@@ -16,7 +16,7 @@
         <form class="search-location">
             <input type="text" name="city" placeholder="what city?" autocomplete="off" class="form-control text-muted form-rounded p-3 mt-4 shadow-sm">
         </form>
-        <div class="card rounded my-4 shadow-lg back-card">
+        <div class="card rounded my-4 shadow-lg d-none back-card">
             <div class="card-header text-center">
                 <div class="city-name my-4">
                     <p>chennai</p>
@@ -36,25 +36,28 @@
 
                     </div>
                 </div>
+
+
+                <div class="icon-container card shadow mx-auto">
+                    <img src="/images/cloud.svg">
+                </div>
+                <div class="card-footer px-5 py-4 row">
+                    <div class="col text-center">
+                        <p>30&deg;c</p>
+                        <span>It feels like</span>
+                    </div>
+                    <div class="col text-center">
+                        <p>55%</p>
+                        <span>Humidity</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="icon-container card shadow mx-auto">
-                <img src="/images/cloud.svg">
-            </div>
-            <div class="card-footer px-5 py-4 row">
-                <div class="col text-center">
-                    <p>30&deg;c</p>
-                    <span>It feels like</span>
-                </div>
-                <div class="col text-center">
-                    <p>55%</p>
-                    <span>Humidity</span>
-                </div>
-            </div>
+
         </div>
-
-    </div>
-
+        <script src="config.js"></script>
+        <script src="index.js"></script>
+        <script src="request.js"></script>
 </body>
 
 </html>

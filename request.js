@@ -1,3 +1,4 @@
+
 const key = `${apikey}`;
 
 
@@ -12,4 +13,4 @@ const requestCity = async(city) => {
 
 }
 
-requestCity('chennai');
+
